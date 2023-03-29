@@ -38,7 +38,6 @@ import java.util.UUID;
 )
 @Where(clause = "enabled = true")
 @SQLDelete(sql = "UPDATE aaaaaa SET enabled = false WHERE id = ? AND modified_on = ?", check = ResultCheckStyle.COUNT)
-@SQLDeleteAll(sql = "UPDATE aaaaaa SET enabled = false WHERE id = ? AND modified_on = ?", check = ResultCheckStyle.COUNT)
 @Audited
 @Cacheable
 @Vetoed

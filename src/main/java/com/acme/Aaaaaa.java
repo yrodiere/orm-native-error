@@ -1,7 +1,6 @@
 package com.acme;
 
 
-import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.annotation.Generated;
 import jakarta.enterprise.inject.Vetoed;
 import jakarta.persistence.NamedNativeQueries;
@@ -43,8 +42,7 @@ import java.util.UUID;
 @Vetoed
 @Entity
 @Generated("Ant Build Script using Hibernate Tools (hbm2java)")
-public class
-Aaaaaa extends PanacheEntityBase implements Serializable {
+public class Aaaaaa implements Serializable {
     @Serial
     private final long serialVersionUID = 1L;
 
